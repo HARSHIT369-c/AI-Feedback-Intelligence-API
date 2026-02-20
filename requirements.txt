@@ -1,6 +1,9 @@
-fastapi
-uvicorn
-pydantic
-python-dotenv
-sqlalchemy
-psycopg2-binary
+fastapi # Web framework for building the API
+uvicorn # ASGI server used to run the FastAPI app
+pydantic # Data validation and settings management
+python-dotenv # Loads environment variables from a .env file
+sqlalchemy # ORM for database interactions
+psycopg2-binary # PostgreSQL database adapter/driver
+pydantic[email] # Pydantic extra: email validation support (email-validator)
+passlib==1.7.4 # Password hashing utilities using bcrypt
+bcrypt==3.2.2
